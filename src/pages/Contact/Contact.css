@@ -1,0 +1,56 @@
+.contact {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-title {
+  color: #00ffff;
+  text-align: right;
+  padding-top: 2rem;
+  padding-right: 5rem;
+}
+
+.contact-para {
+  width: 70%;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  margin: 10rem auto 0;
+}
+
+.butn {
+  text-align: center;
+  margin: 2rem;
+  /* padding-left: -10rem; */
+}
+
+.contact-btn,
+.mail-link {
+  padding: 18px 36px;
+  outline: 2px solid #00ffff;
+  border: none;
+  font-size: 1rem;
+  background-color: transparent;
+  text-decoration: none;
+  color: #00ffff;
+  font-weight: 500;
+}
+
+.contact-btn {
+  outline: none;
+}
+
+button .contact-btn {
+  text-align: center;
+}
+
+.mail-link:hover {
+  background-color: #00ffff;
+  color: #fff;
+  outline: none;
+  /* to put animations later */
+}
+
+.contact-btn:focus {
+  outline: none;
+}

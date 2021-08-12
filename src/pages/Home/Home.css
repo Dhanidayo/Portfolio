@@ -1,0 +1,42 @@
+.intro {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  color: #333;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  padding-top: 15rem;
+}
+
+.para1 {
+  font-size: 2rem;
+}
+
+b {
+  color: turquoise;
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  text-align: center;
+  /* margin-left: 8rem; */
+}
+
+.role {
+  position: absolute;
+  width: 100%;
+  color: aqua;
+  font-size: 2rem;
+  margin: 20rem auto;
+  word-spacing: 2rem;
+  text-align: right;
+  left: -12rem;
+}
+
+hr {
+  width: 60%;
+  height: 2px;
+  border: none;
+  background-color: turquoise;
+  margin: auto;
+  margin-top: 1rem;
+}

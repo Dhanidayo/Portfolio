@@ -1,0 +1,33 @@
+/* .horizontalSlider__281Ls {
+    height: 72rem !important;
+  } */
+
+  /* .carousel {
+    height: 40rem;
+  } */
+
+  Slider {
+    height: 0%;  
+  }
+
+  .slide-img {
+    width: 50rem;
+    height: 30rem;
+    object-fit: contain;
+  }
+
+  .slide-btn {
+    padding: 10px 18px;
+    margin: 5px;
+    background-color: #00ffff;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .slide-btn:hover {
+    background: none;
+    outline: 2px solid #00ffff;
+  }

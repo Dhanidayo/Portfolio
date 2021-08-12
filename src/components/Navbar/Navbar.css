@@ -1,0 +1,87 @@
+.sidenav {
+  max-width: 450px;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  transition: 0.5s ease;
+  background-color: rgb(1, 1, 17);
+  box-shadow: 2px 0px 2px 3px #222;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (max-width: 960px) {
+  .sidenav {
+    position: fixed;
+  }
+}
+
+.nav-closed {
+  width: 0px;
+}
+
+.sidenav a {
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 250ms;
+}
+
+.sidenav.nav-closed a {
+  color: rgba(255, 255, 255, 0);
+}
+
+.navlinks .icon {
+  color: #00ffff;
+}
+
+.link {
+  color: #555;
+  margin: 30px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: #fff;
+  transition: 0.5s ease;
+  transform: translateX(5px);
+  text-decoration: 2px underline;
+}
+
+/* ======STYLING SOCIAL MEDIA ICONS======== */
+.socials {
+  margin-top: 220px;
+  margin-right: 40px;
+  transform: translateY(5px);
+}
+
+.sm-links {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  display: block;
+}
+
+.sm-links:hover {
+  width: 40px;
+  height: 40px;
+  transform: translateY(5px);
+  transition: 0.5s ease;
+}
+
+.closeNav {
+  font-size: 22px;
+  color: turquoise;
+  background-color: transparent;
+  border: none;
+  /* position: absolute; */
+  top: 0;
+  margin-left: 300px;
+}
